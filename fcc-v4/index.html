@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC-v4</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<nav id="navbar">
+  <header>Particle.js Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_you_should_already_know"
+        >What you should already know</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#installation">Installation</a>
+    </li>
+    <li><a class="nav-link" href="#usage">Usage</a></li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+    <li>
+      <a class="nav-link" href="#CDN">CDN</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p> A lightweight JavaScript library for creating particles.</p>
+      <p>With this library create awesome particle effects</p>
+    </article>
+  </section>
+  <section class="main-section" id="What_you_should_already_know">
+    <header>What you should already know</header>
+    <article>
+      <p>Fundamental Javascript</p>
+      <p>CDN Application</p>
+      <p>JSOn Handling</p>
+    </article>
+  </section>
+  <section class="main-section" id="installation">
+    <header>Installation</header>
+    <p>npm
+    </p>
+    <code>npm install particles.js</code>
+    <p>Bower</p>
+    <code>bower install particles.js --save</code>
+    <p>Rails Assets</p>
+    <code>gem 'rails-assets-particles.js'</code>
+    <p>Meteor</p>
+<code>https://atmospherejs.com/newswim/particles
+  meteor add newswim:particles</code>
+    </article>
+  </section>
+  <section class="main-section" id="usage">
+    <header>Usage</header>
+    <article>
+      <code>
+        <p><ol><li>{
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+          }</li><li>
+    },
+    "color": {
+      "value": "#ffffff"
+          },</li><li>
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+          }</li><li>
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+          }</li>,<li>
+    "size": {
+      "value": 10,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 80,
+        "size_min": 0.1,
+        "sync": false
+      }
+          }</li>,<li>
+    "line_linked": {
+      "enable": true,
+      "distance": 300,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 2
+    },
+    "move": {
+      "enable": true,
+      "speed": 12,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+          },</li><li>
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 800,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 800,
+        "size": 80,
+        "duration": 2,
+        "opacity": 0.8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 400,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+          "retina_detect": true</li></ol>
+        }</code></p>
+    </article>
+  </section>
+  <section class="main-section" id="CDN">
+    <header>CDN</header>
+   <p> Please use <a href="http://www.jsdelivr.com/#!particles.js">this</a> host or your own to load particles.js on your projects</p>
+  </section>
+
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <p><ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            target="_blank"
+            >MDN</a
+          >
+        </li>
+      </ul></p>
+    </article>
+  </section>
+</main>
+<!-- partial -->
+  
+</body>
+</html>
